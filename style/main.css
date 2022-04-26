@@ -63,7 +63,7 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("../img/capa-lords.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("https://images.pexels.com/photos/144428/pexels-photo-144428.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
     height: 500px;  
     background-size: cover;
