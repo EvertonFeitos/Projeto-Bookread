@@ -36,7 +36,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--azul);
-    font-family: 'Arial Black';
+    
     font-size: 40px;
 }
 
