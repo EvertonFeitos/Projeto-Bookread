@@ -14,7 +14,7 @@
 
 body{
     background: var(--branca);
-    font-family: 'Arial', Times, serif;
+    font-family:'Trebuchet MS', Arial, sans-serif;
     color: white;
 }
 
@@ -31,11 +31,7 @@ header .container{
     
 }
 
-.menu {
-    position: -webkit-sticky; /* Necessário para funcionar no Safari */
-    position: sticky;
-    top: 0; 
-}
+
 
 header .logo{
     margin-left: 5px;
@@ -60,8 +56,8 @@ header nav a:hover{
     color:rgb(0, 0, 0)
 }
 
-/*Filme principal*/
-.filme-principal{
+/*livro principal*/
+.livro-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("https://images.pexels.com/photos/144428/pexels-photo-144428.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
@@ -75,12 +71,12 @@ header nav a:hover{
 
 }
 
-.filme-principal .descricao{
+.livro-principal .descricao{
     margin-top: 20px;
     margin-bottom: 90px;
 }
 
-.filme-principal .titulo {
+.livro-principal .titulo {
     margin-top: 10%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -119,7 +115,7 @@ header nav a:hover{
     
 }
 
-.filme-principal .container {
+.livro-principal .container {
     width: 70%;
 }
 
@@ -129,7 +125,7 @@ header nav a:hover{
     display: block;
 }
 
-.carrosel-filmes {
+.carrosel-livros {
     margin-top: 5px;
 }
 
