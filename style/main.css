@@ -31,17 +31,24 @@ header .container{
     
 }
 
+header .container-logo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
 header .logo{
     margin-left: 5px;
     color: var(--azul);
-    
     font-size: 40px;
 }
 
-.logo i{
+.container-logo i{
     margin-right: 10px;
+    color: var(--azul);
 }
 
 
