@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon.png">
+      <link rel="stylesheet" href="style/main.css">
+      <!--owl css-->
+      <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+      <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+      <!--responsividade-->
+      <link rel="stylesheet" href="style/responsive.css">
+      <title>BOOKREAD</title>
+   </head>
+   <body>
+      <header class="menu">
+         <div class="container">
+            <h2 class="logo"><i class="fa-solid fa-book-open-reader"></i>BOOKREAD</h2>
+            <nav>
+               <a href="">INICIO</a>
+               <a href="">AVENTURA</a>
+               <a href="">ROMANCE</a>
+               <a href="">FICÇÃO</a>
+            </nav>
+         </div>
+      </header>
+      <main>
+         <div class="filme-principal">
+            <div class="container">
+               <h3 class="titulo">Lords Of Pain - LIVRO 1</h3>
+               <p class="descricao">
+                  Em meio a redescoberta de amor próprio e verdadeiros valores que Chloe irá trombar com Bryan Jones, o doce e engraçado baixista da aclamadíssima Lords Of Pain, a maior banda de rock do momento.
+               </p>
+               <div class="botoes">
+                  <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baixista-Encantador-Lords-Pain-ebook/dp/B08XX6QRZB/ref=pd_sim_sccl_2/144-0465488-5300838?pd_rd_w=zdizh&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=Z8WQPNC6WCB392Y90CSN&pd_rd_r=3ef7d9fd-53e8-47a2-8281-e549d725d18b&pd_rd_wg=e2b9U&pd_rd_i=B08XX6QRZB&psc=1&asin=B08XX6QRZB&revisionId=ec4b44de&format=1&depth=1" target="_blank"><i class="fa-solid fa-book-open"></i>AMOSTRA DO LIVRO NA AMAZON
+                  </a></button>
+                  <button role="button" class="botao" onclick="openModal('dv-modal')"><a href="#">
+                  <i class="fa-solid fa-circle-info"></i>
+                  MAIS INFORMAÇÕES
+                  </a></button>  
+               </div>
+               <div id="dv-modal" class="modal">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h2>Lords Of Pain</h2>
+                        <p>Um baixista encantador</p>
+                     </div>
+                     <div class="modal-body">
+                        <img src="img/mini0.jpg" alt="Lords Of Pain - livro 1">
+                        <p><strong>SINOPSE:</strong></p>
+                        <br><br>
+                        <p>O mundo de Chloe desabou. O fim do casamento de 7 anos trouxe à tona uma triste realidade para Chloe: ela não tem nada.<br> <br> Perdida e sentindo-se humilhada por ter sido trocada por uma linda loira, alta e magra, ela se refugia na casa da melhor amiga e passa a analisar o que foi que deu errado em sua vida. <br> <br> E vai ser em meio a essa redescoberta de amor próprio e verdadeiros valores que Chloe irá trombar com Bryan Jones, o doce e engraçado baixista da aclamadíssima Lords Of Pain, a maior banda de rock do momento.</p>
+                     </div>
+                     <div class="modal-footer">
+                        <button class="botao" onclick="closeModal('dv-modal')">FECHAR</button>
+                        <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baixista-Encantador-Lords-Pain-ebook/dp/B08XX6QRZB/ref=pd_sim_sccl_2/144-0465488-5300838?pd_rd_w=zdizh&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=Z8WQPNC6WCB392Y90CSN&pd_rd_r=3ef7d9fd-53e8-47a2-8281-e549d725d18b&pd_rd_wg=e2b9U&pd_rd_i=B08XX6QRZB&psc=1&asin=B08XX6QRZB&revisionId=ec4b44de&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--modal carrosel filmes-->
+            <div id="dv-modal-livro1" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Lords Of Pain</h2>
+                     <p>Um baterista turbulento</p>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini1.jpg" alt="Lords Of Pain - livro 2">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>‘Foi só um lance. Afinal, quem não iria aproveitar a chance de ficar com seu astro do rock preferido?’<br> <br>Foi isso que Cory pensou depois de ter vivido um momento inesperado com Jacob Clark, o baterista agitado e simpático da Lords Of Pain. Ela não sabia exatamente o que a fez se deixar levar naquele dia, mas aconteceu, e Cory sabia que não iria virar nada a mais, certo? Bom, não exatamente.</p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro1')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baterista-Turbulento-Lords-Pain-ebook/dp/B093YHZDQM/ref=pd_sim_sccl_1/144-0465488-5300838?pd_rd_w=HeHIq&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=PPT67PA6FBH55G6J2KSD&pd_rd_r=dd30f7ca-7183-40b9-81b6-b43dcaed374b&pd_rd_wg=EicEr&pd_rd_i=B093YHZDQM&psc=1&asin=B093YHZDQM&revisionId=4919c15d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro2" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Memorias Póstumas de Brás Cubas</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini2.jpg" alt="Memorias Póstumas de Brás Cubas">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Memória póstumas de Brás Cubas. O mais importante romance brasileiro de todos os tempos. Moderno avant la lettre, revolucionário na forma fragmentária, no tempo narrativo não-linear, no estilo realista-irônico, é ao mesmo tempo um dos mais agudos retratos das elites brasileiras – além de repositório de algumas das passagens mais famosas da literatura em língua portuguesa. Fixação do texto e notas por Marcelo Módolo (professor do Departamento de Letras Clássicas e Vernáculas da USP). Prefácio de Abel Barros Baptista (doutor em estudos portugueses pela Universidade Nova de Lisboa; professor do Departamento de Estudos Portugueses da Universidade Nova de Lisboa). Prólogo da 4ª. edição por Machado de Assis.</p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro2')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Mem%C3%B3rias-p%C3%B3stumas-Cubas-Machado-Assis-ebook/dp/B00A9V88AE/ref=sr_1_4?keywords=memorias+postumas+de+bras+cubas&qid=1650989448&s=digital-text&sprefix=memorias%2Cdigital-text%2C208&sr=1-4&asin=B00A9V88AE&revisionId=f89acf3d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro3" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Orgulho e Preconceito</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini3.jpg" alt="Orgulho e Preconceito">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>A história de Orgulho e Preconceito gira em torno das cinco irmãs Bennet, que viviam na área rural do interior da Inglaterra, no século XVIII. Aborda a questão da sucessão em uma família sem homens, dentro de uma sociedade patriarcal, onde o casamento era fundamental para as mulheres. Assim, quando um homem rico e solteiro se muda para os arredores, a vida pacata da família entra em ebulição.</p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro3')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Orgulho-preconceito-Jane-Austen/dp/6550970431/ref=sr_1_5?keywords=orgulho+e+preconceito&qid=1651004023&s=books&sprefix=orgu%2Cstripbooks%2C236&sr=1-5&asin=B08BPHWHLV&revisionId=&format=2&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro4" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>O lado Bom Da Vida</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini4.jpg" alt="O lado bom da vida">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Pat Peoples, um ex-professor de história na casa dos 30 anos, acaba de sair de uma instituição psiquiátrica. Convencido de que passou apenas alguns meses naquele “lugar ruim”, Pat não se lembra do que o fez ir para lá. O que sabe é que Nikki, sua esposa, quis que ficassem um "tempo separados". <br><br>
+                        Tentando recompor o quebra-cabeças de sua memória, agora repleta de lapsos, ele ainda precisa enfrentar uma realidade que não parece muito promissora. Com seu pai se recusando a falar com ele, sua esposa negando-se a aceitar revê-lo e seus amigos evitando comentar o que aconteceu antes de sua internação, Pat, agora um viciado em exercícios físicos, está determinado a reorganizar as coisas e reconquistar sua mulher, porque acredita em finais felizes e no lado bom da vida.
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro4')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/lado-bom-vida-Matthew-Quick-ebook/dp/B00AOAGT7O/ref=sr_1_1?keywords=o+lado+bom+da+vida&qid=1651004841&s=books&sprefix=o+lado+bom%2Cstripbooks%2C242&sr=1-1&asin=B00AOAGT7O&revisionId=ea067b0c&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro5" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Lords Of Pain - Livro 3</h2>
+                     <p>Um Guitarrista Apaixonante</p>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini5.jpg" alt="Lords Of Pain - Livro 3">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>“Pensar positivo.” <br><br>
+                        Esse é o lema de Sadie. Ela aprendeu desde muito nova que para seguir em frente, apesar dos problemas que a vida coloca em seu caminho, é preciso ter uma atitude animada e persistente.<br><br>
+                        Tanto que, usar uma prótese no lugar da perna amputada, nunca foi impedimento para ela ser independente e buscar suas conquistas. Sadie sente que sempre sabe lidar com qualquer desafio que aconteça. <br><br>
+                        Pelo menos era assim, até ela conhecer Peter. O discreto e gentil guitarrista da Lords Of Pain.
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro5')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Guitarrista-Apaixonante-Lords-Pain-ebook/dp/B098N9WRZ2/ref=sr_1_9?keywords=lord+of+pain&qid=1651004543&sprefix=lord+of+p%2Caps%2C228&sr=8-9&asin=B098N9WRZ2&revisionId=9f700c92&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro6" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>A Culpa e das Estrelas</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini6.jpg" alt="A Culpa e das Estrelas">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante — o que lhe dá a promessa de viver mais alguns anos —, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. <br><br>
+                        Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro6')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Culpa-%C3%89-das-Estrelas/dp/8580572266/ref=sr_1_1?keywords=a+culpa+e+das+estrelas&qid=1651004959&sprefix=a+culpa+e+%2Caps%2C218&sr=8-1&asin=B009M8CTWS&revisionId=5d13ead2&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro7" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Um Amor para Recordar</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini7.jpg" alt="Um amor para recordar">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Um amor para recordar foi adaptado para o cinema em 2002, com Shane West e Mandy Moore como protagonistas. <br><br>
+                        “De vez em quando nos deparamos com um livro extraordinário que nos deixa maravilhados com o tesouro escondido ali. Um amor para recordar é um desses livros. Uma história comovente e fascinante que você não esquecerá tão cedo.” – New York Post
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro7')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/amor-para-recordar-Nicholas-Sparks/dp/8580419816/ref=sr_1_1?keywords=um+amor+para+recordar&qid=1651005461&sprefix=um+amor+para%2Caps%2C299&sr=8-1&asin=B07SVF8K9P&revisionId=4bbb239c&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro8" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>A garota (O cara) que roubou meu táxi</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini8.jpg" alt="A garota (O cara) que roubou meu táxi">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Qual é a probabilidade de sofrer um acidente, ao lado de um conhecido jogador de futebol americano, e acabar se tornando a namorada dele? Correção: falsa namorada dele. Isso é praticamente improvável, certo? Bom, não para Summer. Numa noite chuvosa de fevereiro, tudo o que ela NÃO poderia fazer, era se atrasar. Mas entrar no táxi amarelo ao mesmo tempo em que Mav Adams, vai mudar a vida dessa artista para sempre. Para todos os amantes de romances bregas e fofos.</p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro8')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/garota-cara-que-roubou-t%C3%A1xi-ebook/dp/B08QV1QTTT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OEOCP5ROM4Z&keywords=a+garota+que+roubou+meu+taxi&qid=1651005787&s=books&sprefix=a+garota+que+roubou+meu+taxi%2Cstripbooks%2C209&sr=1-1&asin=B08QV1QTTT&revisionId=28ae78ef&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro9" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Diario de Uma Paixão</h2>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini9.jpg" alt="Diario de uma Paixão">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Diário de uma paixão foi o primeiro romance publicado por Nicholas Sparks e é uma prova do talento que o consagrou por todo o mundo. Entremeando as histórias de Allie, Noah e Duke, ele construiu um conto romântico que se tornou um verdadeiro clássico. <br><br>
+                        "Quando me sentei para planejar a história de Noah e Allie, muitos anos atrás, nunca imaginei aonde minha própria jornada me levaria. Embora tenha gostado de escrever todos os meus livros, sempre terei um carinho especial por Diário de uma paixão." – Nicholas Sparks
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro9')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Di%C3%A1rio-uma-paix%C3%A3o-Nicholas-Sparks/dp/8580416701/ref=sr_1_1?keywords=diario+de+uma+paixao&qid=1651005976&s=books&sprefix=diairio+de+uma+pai%2Cstripbooks%2C220&sr=1-1&asin=B01N5TJ6A8&revisionId=a06dacdf&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+            <div id="dv-modal-livro10" class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h2>Lords Of Pain - Livro 4</h2>
+                     <p>Um Vocalista Inesquecível</p>
+                  </div>
+                  <div class="modal-body">
+                     <img src="img/mini10.jpg" alt="Lords Of Pain - Livro 4">
+                     <p><strong>SINOPSE:</strong></p>
+                     <br><br>
+                     <p>Faz 17 anos que Leah, a filha do marquês de Ebsworth, teve seu coração partido. Ou melhor, destruído. Os acontecimentos de 2004 a mudaram completamente, e desde então, ela nunca mais precisou lidar com a presença física de Derek Thompson. Física, porque ele sempre esteve por aí: aparecendo nos programas de TV, em capas de revista, cantando pelo mundo com sua banda – a Lords Of Pain – músicas de um amor trágico que ela conhece bem. Canções sobre ela. <br><br>
+                        Ela nunca imaginou, nem em seus sonhos – ou pesadelos – mais loucos, que Derek reapareceria. E quando isso acontece, depois de tanto tempo, Leah, ou Lily, precisa lidar com sentimentos que sufocou por uma vida inteira.
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="botao" onclick="closeModal('dv-modal-livro10')">FECHAR</button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Vocalista-Inesquec%C3%ADvel-Lords-Pain-ebook/dp/B09F8RKKFX/ref=sr_1_5?keywords=dinah+rodrigues&qid=1651006149&sprefix=dinah+ro%2Caps%2C183&sr=8-5&asin=B09F8RKKFX&revisionId=4eb0c21d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA <i class="fa-brands fa-amazon"></i></a></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <div class="carrosel-filmes">
+         <div class="owl-carousel owl-theme">
+            <div class="item">
+               <img class="box-livros" src="img/mini1.jpg" alt="" onclick="openModal('dv-modal-livro1')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini2.jpg" alt="" onclick="openModal('dv-modal-livro2')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini3.jpg" alt="" onclick="openModal('dv-modal-livro3')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini4.jpg" alt="" onclick="openModal('dv-modal-livro4')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini5.jpg" alt="" onclick="openModal('dv-modal-livro5')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini6.jpg" alt="" onclick="openModal('dv-modal-livro6')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini7.jpg" alt="" onclick="openModal('dv-modal-livro7')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini8.jpg" alt="" onclick="openModal('dv-modal-livro8')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini9.jpg" alt="" onclick="openModal('dv-modal-livro9')">
+            </div>
+            <div class="item">
+               <img class="box-livros" src="img/mini10.jpg" alt="" onclick="openModal('dv-modal-livro10')">
+            </div>
+         </div>
+      </div>
+      <script src="https://kit.fontawesome.com/afe72179cb.js" crossorigin="anonymous"></script>
+      <script src="js/owl/jquery.min.js"></script>
+      <script src="js/owl/owl.carousel.min.js"></script>
+      <script src="js/setup.js"></script>
+   </body>
+</html>
