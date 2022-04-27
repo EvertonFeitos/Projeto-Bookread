@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/png" sizes="96x96" src="img/favicon/favicon.png">
+      <link rel="icon" type="image/png" href="img/favicon/favicon.png">
       <link rel="stylesheet" href="style/main.css">
       
       <!--owl css-->
@@ -18,7 +18,10 @@
       <header>
          <div class="container">
             
-            <h2 class="logo"><i class="fa-solid fa-book-open-reader"></i>Bookread</h2>
+            <div class="div-logo">
+               <i class="fa-solid fa-book-open-reader fa-3x"></i>
+               <h3 class="logo">Bookread</h3>
+            </div>
            
             
             <nav>
@@ -37,11 +40,15 @@
                   Em meio a redescoberta de amor próprio e verdadeiros valores que Chloe irá trombar com Bryan Jones, o doce e engraçado baixista da aclamadíssima Lords Of Pain, a maior banda de rock do momento.
                </p>
                <div class="botoes">
-                  <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baixista-Encantador-Lords-Pain-ebook/dp/B08XX6QRZB/ref=pd_sim_sccl_2/144-0465488-5300838?pd_rd_w=zdizh&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=Z8WQPNC6WCB392Y90CSN&pd_rd_r=3ef7d9fd-53e8-47a2-8281-e549d725d18b&pd_rd_wg=e2b9U&pd_rd_i=B08XX6QRZB&psc=1&asin=B08XX6QRZB&revisionId=ec4b44de&format=1&depth=1" target="_blank"><i class="fa-solid fa-book-open"></i>AMOSTRA DO LIVRO NA AMAZON</a></button>
+                  <button role="button" class="botao">
+                     <i class="fa-solid fa-book-open fa-2x"></i>
+                     <a href="https://www.amazon.com.br/Um-Baixista-Encantador-Lords-Pain-ebook/dp/B08XX6QRZB/ref=pd_sim_sccl_2/144-0465488-5300838?pd_rd_w=zdizh&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=Z8WQPNC6WCB392Y90CSN&pd_rd_r=3ef7d9fd-53e8-47a2-8281-e549d725d18b&pd_rd_wg=e2b9U&pd_rd_i=B08XX6QRZB&psc=1&asin=B08XX6QRZB&revisionId=ec4b44de&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO</a>
+                  </button>
                   
                   <button role="button" class="botao" onclick="openModal('dv-modal')">
-                  <i class="fa-solid fa-circle-info"></i>
-                  MAIS INFORMAÇÕES
+                  <i class="fa-solid fa-circle-info fa-2x"></i>
+                  <a href="">MAIS INFORMAÇÕES</a>
+                  
                   </button>  
                </div>
                <div id="dv-modal" class="modal">
@@ -57,8 +64,14 @@
                         <p>O mundo de Chloe desabou. O fim do casamento de 7 anos trouxe à tona uma triste realidade para Chloe: ela não tem nada.<br> <br> Perdida e sentindo-se humilhada por ter sido trocada por uma linda loira, alta e magra, ela se refugia na casa da melhor amiga e passa a analisar o que foi que deu errado em sua vida. <br> <br> E vai ser em meio a essa redescoberta de amor próprio e verdadeiros valores que Chloe irá trombar com Bryan Jones, o doce e engraçado baixista da aclamadíssima Lords Of Pain, a maior banda de rock do momento.</p>
                      </div>
                      <div class="modal-footer">
-                        <button class="botao" onclick="closeModal('dv-modal')">FECHAR</button>
-                        <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baixista-Encantador-Lords-Pain-ebook/dp/B08XX6QRZB/ref=pd_sim_sccl_2/144-0465488-5300838?pd_rd_w=zdizh&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=Z8WQPNC6WCB392Y90CSN&pd_rd_r=3ef7d9fd-53e8-47a2-8281-e549d725d18b&pd_rd_wg=e2b9U&pd_rd_i=B08XX6QRZB&psc=1&asin=B08XX6QRZB&revisionId=ec4b44de&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                        <button class="botao" onclick="closeModal('dv-modal')">
+                           <a href="">FECHAR</a>
+                        </button>
+                        <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baixista-Encantador-Lords-Pain-ebook/dp/B08XX6QRZB/ref=pd_sim_sccl_2/144-0465488-5300838?pd_rd_w=zdizh&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=Z8WQPNC6WCB392Y90CSN&pd_rd_r=3ef7d9fd-53e8-47a2-8281-e549d725d18b&pd_rd_wg=e2b9U&pd_rd_i=B08XX6QRZB&psc=1&asin=B08XX6QRZB&revisionId=ec4b44de&format=1&depth=1" target="_blank">
+                           AMOSTRA DO LIVRO
+                           </a>
+                           <i class="fa-brands fa-amazon"></i>
+                           </button>
                      </div>
                   </div>
                </div>
@@ -78,7 +91,12 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro1')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Baterista-Turbulento-Lords-Pain-ebook/dp/B093YHZDQM/ref=pd_sim_sccl_1/144-0465488-5300838?pd_rd_w=HeHIq&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=PPT67PA6FBH55G6J2KSD&pd_rd_r=dd30f7ca-7183-40b9-81b6-b43dcaed374b&pd_rd_wg=EicEr&pd_rd_i=B093YHZDQM&psc=1&asin=B093YHZDQM&revisionId=4919c15d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao">
+                        <a href="https://www.amazon.com.br/Um-Baterista-Turbulento-Lords-Pain-ebook/dp/B093YHZDQM/ref=pd_sim_sccl_1/144-0465488-5300838?pd_rd_w=HeHIq&pf_rd_p=ee0026e5-83c7-4d14-9886-347bd679bdb5&pf_rd_r=PPT67PA6FBH55G6J2KSD&pd_rd_r=dd30f7ca-7183-40b9-81b6-b43dcaed374b&pd_rd_wg=EicEr&pd_rd_i=B093YHZDQM&psc=1&asin=B093YHZDQM&revisionId=4919c15d&format=1&depth=1" target="_blank">
+                           AMOSTRA DO LIVRO
+                        </a>
+                        <i class="fa-brands fa-amazon"></i> 
+                        </button>
                   </div>
                </div>
             </div>
@@ -95,7 +113,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro2')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Mem%C3%B3rias-p%C3%B3stumas-Cubas-Machado-Assis-ebook/dp/B00A9V88AE/ref=sr_1_4?keywords=memorias+postumas+de+bras+cubas&qid=1650989448&s=digital-text&sprefix=memorias%2Cdigital-text%2C208&sr=1-4&asin=B00A9V88AE&revisionId=f89acf3d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Mem%C3%B3rias-p%C3%B3stumas-Cubas-Machado-Assis-ebook/dp/B00A9V88AE/ref=sr_1_4?keywords=memorias+postumas+de+bras+cubas&qid=1650989448&s=digital-text&sprefix=memorias%2Cdigital-text%2C208&sr=1-4&asin=B00A9V88AE&revisionId=f89acf3d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO</a><i class="fa-brands fa-amazon"></i></button>
                   </div>
                </div>
             </div>
@@ -112,7 +130,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro3')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Orgulho-preconceito-Jane-Austen/dp/6550970431/ref=sr_1_5?keywords=orgulho+e+preconceito&qid=1651004023&s=books&sprefix=orgu%2Cstripbooks%2C236&sr=1-5&asin=B08BPHWHLV&revisionId=&format=2&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Orgulho-preconceito-Jane-Austen/dp/6550970431/ref=sr_1_5?keywords=orgulho+e+preconceito&qid=1651004023&s=books&sprefix=orgu%2Cstripbooks%2C236&sr=1-5&asin=B08BPHWHLV&revisionId=&format=2&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -131,7 +149,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro4')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/lado-bom-vida-Matthew-Quick-ebook/dp/B00AOAGT7O/ref=sr_1_1?keywords=o+lado+bom+da+vida&qid=1651004841&s=books&sprefix=o+lado+bom%2Cstripbooks%2C242&sr=1-1&asin=B00AOAGT7O&revisionId=ea067b0c&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/lado-bom-vida-Matthew-Quick-ebook/dp/B00AOAGT7O/ref=sr_1_1?keywords=o+lado+bom+da+vida&qid=1651004841&s=books&sprefix=o+lado+bom%2Cstripbooks%2C242&sr=1-1&asin=B00AOAGT7O&revisionId=ea067b0c&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -153,7 +171,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro5')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Guitarrista-Apaixonante-Lords-Pain-ebook/dp/B098N9WRZ2/ref=sr_1_9?keywords=lord+of+pain&qid=1651004543&sprefix=lord+of+p%2Caps%2C228&sr=8-9&asin=B098N9WRZ2&revisionId=9f700c92&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Guitarrista-Apaixonante-Lords-Pain-ebook/dp/B098N9WRZ2/ref=sr_1_9?keywords=lord+of+pain&qid=1651004543&sprefix=lord+of+p%2Caps%2C228&sr=8-9&asin=B098N9WRZ2&revisionId=9f700c92&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -172,7 +190,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro6')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Culpa-%C3%89-das-Estrelas/dp/8580572266/ref=sr_1_1?keywords=a+culpa+e+das+estrelas&qid=1651004959&sprefix=a+culpa+e+%2Caps%2C218&sr=8-1&asin=B009M8CTWS&revisionId=5d13ead2&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Culpa-%C3%89-das-Estrelas/dp/8580572266/ref=sr_1_1?keywords=a+culpa+e+das+estrelas&qid=1651004959&sprefix=a+culpa+e+%2Caps%2C218&sr=8-1&asin=B009M8CTWS&revisionId=5d13ead2&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -191,7 +209,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro7')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/amor-para-recordar-Nicholas-Sparks/dp/8580419816/ref=sr_1_1?keywords=um+amor+para+recordar&qid=1651005461&sprefix=um+amor+para%2Caps%2C299&sr=8-1&asin=B07SVF8K9P&revisionId=4bbb239c&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/amor-para-recordar-Nicholas-Sparks/dp/8580419816/ref=sr_1_1?keywords=um+amor+para+recordar&qid=1651005461&sprefix=um+amor+para%2Caps%2C299&sr=8-1&asin=B07SVF8K9P&revisionId=4bbb239c&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -208,7 +226,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro8')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/garota-cara-que-roubou-t%C3%A1xi-ebook/dp/B08QV1QTTT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OEOCP5ROM4Z&keywords=a+garota+que+roubou+meu+taxi&qid=1651005787&s=books&sprefix=a+garota+que+roubou+meu+taxi%2Cstripbooks%2C209&sr=1-1&asin=B08QV1QTTT&revisionId=28ae78ef&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/garota-cara-que-roubou-t%C3%A1xi-ebook/dp/B08QV1QTTT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OEOCP5ROM4Z&keywords=a+garota+que+roubou+meu+taxi&qid=1651005787&s=books&sprefix=a+garota+que+roubou+meu+taxi%2Cstripbooks%2C209&sr=1-1&asin=B08QV1QTTT&revisionId=28ae78ef&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -227,7 +245,7 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro9')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Di%C3%A1rio-uma-paix%C3%A3o-Nicholas-Sparks/dp/8580416701/ref=sr_1_1?keywords=diario+de+uma+paixao&qid=1651005976&s=books&sprefix=diairio+de+uma+pai%2Cstripbooks%2C220&sr=1-1&asin=B01N5TJ6A8&revisionId=a06dacdf&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Di%C3%A1rio-uma-paix%C3%A3o-Nicholas-Sparks/dp/8580416701/ref=sr_1_1?keywords=diario+de+uma+paixao&qid=1651005976&s=books&sprefix=diairio+de+uma+pai%2Cstripbooks%2C220&sr=1-1&asin=B01N5TJ6A8&revisionId=a06dacdf&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO<i class="fa-brands fa-amazon"></i></a></button>
                   </div>
                </div>
             </div>
@@ -247,7 +265,12 @@
                   </div>
                   <div class="modal-footer">
                      <button class="botao" onclick="closeModal('dv-modal-livro10')">FECHAR</button>
-                     <button role="button" class="botao"><a href="https://www.amazon.com.br/Um-Vocalista-Inesquec%C3%ADvel-Lords-Pain-ebook/dp/B09F8RKKFX/ref=sr_1_5?keywords=dinah+rodrigues&qid=1651006149&sprefix=dinah+ro%2Caps%2C183&sr=8-5&asin=B09F8RKKFX&revisionId=4eb0c21d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO NA AMAZON<i class="fa-brands fa-amazon"></i></a></button>
+                     <button role="button" class="botao">
+                        <a href="https://www.amazon.com.br/Um-Vocalista-Inesquec%C3%ADvel-Lords-Pain-ebook/dp/B09F8RKKFX/ref=sr_1_5?keywords=dinah+rodrigues&qid=1651006149&sprefix=dinah+ro%2Caps%2C183&sr=8-5&asin=B09F8RKKFX&revisionId=4eb0c21d&format=1&depth=1" target="_blank">AMOSTRA DO LIVRO
+
+                     </a>
+                        <i class="fa-brands fa-amazon"></i>
+                     </button>
                   </div>
                </div>
             </div>

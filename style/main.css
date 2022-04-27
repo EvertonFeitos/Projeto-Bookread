@@ -14,7 +14,7 @@
 
 body{
     background: var(--branca);
-    font-family:'Arial', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -31,22 +31,19 @@ header .container{
     
 }
 
-header .container-logo {
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-
 header .logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 5px;
     color: var(--azul);
     font-size: 40px;
 }
 
-.logo i{
+.div-logo {
+    display:flex;
+    flex-direction: row;
+}
+
+.div-logo i{
     margin-right: 10px;
     color: var(--azul);
 }
@@ -56,6 +53,8 @@ header nav a{
     text-decoration: none;
     color: #093ce5;
     margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
 
 }
 
@@ -66,8 +65,7 @@ header nav a:hover{
 /*livro principal*/
 .livro-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("https://images.pexels.com/photos/144428/pexels-photo-144428.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/capa-lords.jpg');
     height: 500px;  
     background-size: cover;
 
@@ -90,12 +88,12 @@ header nav a:hover{
 }
 
 .botao{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 12px;
     cursor: pointer;
     transition: 1s ease all;
     text-transform: none;
@@ -109,19 +107,15 @@ header nav a:hover{
 }
 
 .botao a {
-    text-transform: none;
     text-decoration: none;
     color:white;
+    font-weight: bold;
+    font-size: 16px;
 }
 .botao i {
     margin-right: 8px;
     
 }
-
-.modal-footer .botao i {
-    margin-left: 8px;
-}
-
 
 .container {
     margin-left: 20px;
@@ -216,7 +210,6 @@ header nav a:hover{
 
 
 .modal-footer a {
-    text-transform: none;
     text-decoration: none;
     color:white;
 }
