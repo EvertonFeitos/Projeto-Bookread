@@ -18,9 +18,10 @@ body{
     color: white;
 }
 
-header{
+header {
     background: var(--branca);
-}
+    
+    }
 
 header .container{
     display:flex;
@@ -41,12 +42,14 @@ header .logo{
 .div-logo {
     display:flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .div-logo i{
     margin-right: 10px;
     color: var(--azul);
-}
+    }
 
 
 header nav a{
