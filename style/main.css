@@ -46,7 +46,7 @@ header .logo{
     font-size: 40px;
 }
 
-.container-logo i{
+.logo i{
     margin-right: 10px;
     color: var(--azul);
 }
@@ -115,7 +115,13 @@ header nav a:hover{
 }
 .botao i {
     margin-right: 8px;
+    
 }
+
+.modal-footer .botao i {
+    margin-left: 8px;
+}
+
 
 .container {
     margin-left: 20px;
@@ -207,19 +213,7 @@ header nav a:hover{
     
 }
 
-.btn-modal{
-    background-color: var(--azul);
-    padding: 5px 10px 5px 10px;
-    border: 2px solid rgb(57, 0, 189);
-    cursor: pointer;
-    transition: background .3s;
-    border-radius: 5px;
-    color: #FFF;
-}
 
-.btn-modal:hover {
-    background-color: rgb(57, 0, 189);;
-}
 
 .modal-footer a {
     text-transform: none;

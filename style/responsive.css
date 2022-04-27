@@ -4,11 +4,7 @@
         flex-direction: column;
     }
 
-    header .container-logo {
-        display:flex;
-    flex-direction: row;
-    align-items: center;
-    }
+    
 
     .botao {
         margin-top: 5px;
